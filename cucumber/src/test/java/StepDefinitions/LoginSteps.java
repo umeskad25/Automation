@@ -43,66 +43,66 @@ public class LoginSteps {
     
   //Scenario - 2
 
-//	@When("^The Response is available$")
-//	public void The_Response_is_available() throws Exception {
-//	responseBody = response.getBody().asString();
-//	}
-//
-//	@Then("^validate the response body$")
-//	public void validate_the_response_body() throws Exception {
-//	  JsonPath j = response.jsonPath();
-//	  Assert.assertEquals(j.get("base"), "EUR");
-//		Assert.assertNotNull(responseBody);
-//	 
-//	}
-//	
-//	//Scenario - 3
-//	@Given("^Rates API for Latest Foreign Exchange API$")
-//    public void Rates_API_for_Latest_Foreign_Exchange_API() throws Exception {
-//		Header h =  new Header("Accept","Application/json");
-//		response = RestAssured.given().header(h).get("https://api.ratesapi.io/api");
-//       
-//    }
-//
-// 
-//
-//    @When("^The Response of API is ready$")
-//    public void The_Response_of_API_is_ready() throws Exception {
-//    	statusCode= response.getStatusCode();
-//    	System.out.println(statusCode);
-//    }
-//
-// 
-//
-//    @Then("^validate the incorrect API response$")
-//    public void validate_the_incorrect_API_response() throws Exception {
-//    	JsonPath j = response.jsonPath();
-//    	Assert.assertEquals(j.get("error"), "time data 'api' does not match format '%Y-%m-%d'");
-//    }
-//    
-//  //Scenario - 4
-//  	@Given("^Rates API for Latest Foreign Exchange AP$")
-//      public void Rates_API_for_Latest_Foreign_Exchange_AP() throws Exception {
-//  		Header h =  new Header("Accept","Application/json");
-//  		response = RestAssured.given().header(h).get("https://api.ratesapi.io/api");
-//         
-//      }
-//
-//   
-//
-//      @When("^The Response of API is read$")
-//      public void The_Response_of_API_is_read() throws Exception {
-//      	statusCode= response.getStatusCode();
-//      	System.out.println(statusCode);
-//      }
-//
-//   
-//
-//      @Then("^validate the incorrect API respons$")
-//      public void validate_the_incorrect_API_respons() throws Exception {
-//      	JsonPath j = response.jsonPath();
-//      	Assert.assertEquals(j.get("error"), "time data 'api' does not match format '%Y-%m-%d'");
-//      }
+	@When("^The Response is available$")
+	public void The_Response_is_available() throws Exception {
+	responseBody = response.getBody().asString();
+	}
+
+	@Then("^validate the response body$")
+	public void validate_the_response_body() throws Exception {
+	  JsonPath j = response.jsonPath();
+	  Assert.assertEquals(j.get("base"), "EUR");
+		Assert.assertNotNull(responseBody);
+	 
+	}
+	
+	//Scenario - 3
+	@Given("^Rates API for Latest Foreign Exchange API$")
+    public void Rates_API_for_Latest_Foreign_Exchange_API() throws Exception {
+		Header h =  new Header("Accept","Application/json");
+		response = RestAssured.given().header(h).get("https://api.ratesapi.io/api");
+       
+    }
+
+ 
+
+    @When("^The Response of API is ready$")
+    public void The_Response_of_API_is_ready() throws Exception {
+    	statusCode= response.getStatusCode();
+    	System.out.println(statusCode);
+    }
+
+ 
+
+    @Then("^validate the incorrect API response$")
+    public void validate_the_incorrect_API_response() throws Exception {
+    	JsonPath j = response.jsonPath();
+    	Assert.assertEquals(j.get("error"), "time data 'api' does not match format '%Y-%m-%d'");
+    }
+    
+  //Scenario - 4
+  	@Given("^Rates API for Latest Foreign Exchange AP$")
+      public void Rates_API_for_Latest_Foreign_Exchange_AP() throws Exception {
+  		Header h =  new Header("Accept","Application/json");
+  		response = RestAssured.given().header(h).get("https://api.ratesapi.io/api");
+         
+      }
+
+   
+
+      @When("^The Response of API is read$")
+      public void The_Response_of_API_is_read() throws Exception {
+      	statusCode= response.getStatusCode();
+      	System.out.println(statusCode);
+      }
+
+   
+
+      @Then("^validate the incorrect API respons$")
+      public void validate_the_incorrect_API_respons() throws Exception {
+      	JsonPath j = response.jsonPath();
+      	Assert.assertEquals(j.get("error"), "time data 'api' does not match format '%Y-%m-%d'");
+      }
 	
     
 }
