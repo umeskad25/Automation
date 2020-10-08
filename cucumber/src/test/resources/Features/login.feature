@@ -13,3 +13,6 @@ Feature: EDU AUT Login
     Given Rates API for Latest Foreign Exchange API
     When The Response of API is ready
     Then validate the incorrect API response
+    
+    
+    
