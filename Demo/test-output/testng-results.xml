@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12667" started-at="2020-11-06T22:35:31 IST" finished-at="2020-11-06T22:35:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12667" started-at="2020-11-06T22:35:31 IST" finished-at="2020-11-06T22:35:43 IST">
+      <class name="stepDefinations.StepDefinations9">
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:stepDefinations.StepDefinations9@52979599]" name="testMethod" duration-ms="5762" started-at="2020-11-06T22:35:31 IST" data-provider="dates" finished-at="2020-11-06T22:35:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2014-01-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:stepDefinations.StepDefinations9@52979599]" name="testMethod" duration-ms="4630" started-at="2020-11-06T22:35:37 IST" data-provider="dates" finished-at="2020-11-06T22:35:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2015-01-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:stepDefinations.StepDefinations9@52979599]" name="testMethod" duration-ms="2146" started-at="2020-11-06T22:35:41 IST" data-provider="dates" finished-at="2020-11-06T22:35:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[api/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2016-01-12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- stepDefinations.StepDefinations9 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
